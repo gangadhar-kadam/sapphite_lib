@@ -15,6 +15,9 @@ wn.core.pages.desktop.refresh = function() {
 }
 
 wn.core.pages.desktop.render = function() {
+	//if(has_common(user_roles, ["Administrator", "System Manager","Accounts Manager","Accounts User","Material Master Manager","Material Manager","Material User","Sales Master Manager","Sales Manager","Sales User"])) {
+			//window.location.href = "app.html#dashboards"; 
+	//}
 	document.title = "Desktop";
 	var add_icon = function(m) {
 		var module = wn.modules[m];
