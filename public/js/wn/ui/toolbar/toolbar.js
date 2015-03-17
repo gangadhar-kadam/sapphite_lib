@@ -143,7 +143,7 @@ wn.ui.toolbar.Toolbar = Class.extend({
 				<li><a href="#" onclick="return wn.ui.toolbar.clear_cache();">\
 					<i class="icon-fixed-width icon-refresh"></i> '
 					+wn._('Clear Cache & Refresh')+'</a></li>\
-				<li><a href="app.html#dashboards"><i class="icon-fixed-width icon-calendar"></i> '+wn._('Dashbaord')+'</a></li>\
+				<li><a href="app.html#dashboards"><i class="icon-fixed-width icon-calendar"></i> '+wn._('Dashboard')+'</a></li>\
 				<li><a href="#" onclick="return wn.ui.toolbar.show_about();">\
 					<i class="icon-fixed-width icon-info-sign"></i> '
 					+wn._('About')+'</a></li>\
